@@ -1,7 +1,7 @@
 // Simple JavaScript for form handling
 document.getElementById('contact-form').addEventListener('submit', function(e) {
     e.preventDefault();
-    alert('Thank you for your message! (This is a demo - in a real site, you would send the form data to a server)');
+    alert('Спасибо за ваше сообщение! (Это демонстрационный пример — на реальном сайте данные формы отправляются на сервер.)');
     this.reset();
 });
 
